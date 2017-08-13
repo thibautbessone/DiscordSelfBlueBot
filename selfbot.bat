@@ -1,0 +1,1 @@
+java -jar blueselfbot.jar -Xmx32m

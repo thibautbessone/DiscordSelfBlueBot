@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="blueselfbot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/blueselfbot_jar</output-path>
+    <root id="archive" name="blueselfbot.jar">
+      <element id="module-output" name="blueselfbot" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/JDA-3.2.0_226-withDependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
