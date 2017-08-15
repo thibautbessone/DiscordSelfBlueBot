@@ -22,7 +22,7 @@ This project shares a good part of its code with [BlueBot](https://github.com/th
 * replace YOURPASSWORDHERE by your Discord password (it is used to change your avatar by the `/avatars` command).
 * Customize your prefix / activity if you want to
 * Edit your personal info as you want (`\n` for new line)
-
+* Run selfbot.bat to start your selfbot !
 
 ## License
 

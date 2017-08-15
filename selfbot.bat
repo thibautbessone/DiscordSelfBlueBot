@@ -1,1 +1,2 @@
-java -jar blueselfbot.jar -Xmx32m
+java -jar blueselfbot.jar -Xmx64m
+pause

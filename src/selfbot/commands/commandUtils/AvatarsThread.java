@@ -11,7 +11,7 @@ import java.util.TimerTask;
 /**
  * @file AvatarsThread.java
  * @author Blue
- * @version 0.1
+ * @version 0.2
  * @brief Thread to periodically change the avatar (every 6 mins - can't make it faster due to Discord rate limits)
  */
 public class AvatarsThread extends Thread {
@@ -26,7 +26,7 @@ public class AvatarsThread extends Thread {
             counter = folder.listFiles().length;
             for (File file : folder.listFiles()) {
                 if(file.getName().contains(".jpg")) {
-                    filesList.add(folder.getName() + "/" + file.getName());
+                    filesList.add(folder.getPath() + "/" + file.getName());
                 }
             }
             Timer timer = new Timer ();
