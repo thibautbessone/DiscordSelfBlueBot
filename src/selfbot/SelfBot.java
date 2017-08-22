@@ -5,6 +5,7 @@ import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.entities.Game;
 import net.dv8tion.jda.core.exceptions.RateLimitedException;
+import selfbot.commands.fun.BinaryCommand;
 import selfbot.commands.fun.IdgfCommand;
 import selfbot.commands.infos.ServerCommand;
 import selfbot.commands.misc.AvatarCommand;
@@ -63,6 +64,7 @@ public class SelfBot {
         commands.put("poll", new PollCommand());
         commands.put("server", new ServerCommand());
         commands.put("idgf", new IdgfCommand());
+        commands.put("binary", new BinaryCommand());
     }
 
     public static void handleCommand(CommandParser.CommandContainer cmdContainer) {
