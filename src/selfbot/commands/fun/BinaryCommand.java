@@ -6,7 +6,7 @@ import selfbot.utils.Command;
 import java.io.UnsupportedEncodingException;
 
 /**
- * @file AsciiCommand.java
+ * @file BinaryCommand.java
  * @author Blue
  * @version 0.1
  * @brief Write the given text as binary code (accents not working)

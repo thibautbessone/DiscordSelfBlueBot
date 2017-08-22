@@ -5,14 +5,11 @@ import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.entities.Game;
 import net.dv8tion.jda.core.exceptions.RateLimitedException;
-import selfbot.commands.fun.BinaryCommand;
-import selfbot.commands.fun.IdgfCommand;
+import selfbot.commands.fun.*;
 import selfbot.commands.infos.ServerCommand;
 import selfbot.commands.misc.AvatarCommand;
 import selfbot.commands.misc.GameCommand;
 import selfbot.commands.infos.InfoCommand;
-import selfbot.commands.fun.AsciiCommand;
-import selfbot.commands.fun.LennyCommand;
 import selfbot.commands.infos.WhoisCommand;
 import selfbot.commands.misc.PollCommand;
 import selfbot.utils.Command;
@@ -65,6 +62,7 @@ public class SelfBot {
         commands.put("server", new ServerCommand());
         commands.put("idgf", new IdgfCommand());
         commands.put("binary", new BinaryCommand());
+        commands.put("reverse", new ReverseCommand());
     }
 
     public static void handleCommand(CommandParser.CommandContainer cmdContainer) {
