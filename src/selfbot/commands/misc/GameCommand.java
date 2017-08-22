@@ -9,7 +9,7 @@ import selfbot.utils.Command;
  * @file GameCommand.java
  * @author Blue
  * @version 0.1
- * @brief Changes your current game/activity
+ * @brief Changes your current game/activity (available every 5 mins)
  */
 public class GameCommand implements Command {
     @Override

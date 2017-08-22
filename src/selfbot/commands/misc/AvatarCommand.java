@@ -22,6 +22,7 @@ public class AvatarCommand implements Command {
     public void action(String[] args, MessageReceivedEvent event) {
         if (!SelfBot.isAvatarsRunning()) {
             AvatarsThread thread = new AvatarsThread();
+            thread.setDaemon(true);
             thread.run();
             SelfBot.setAvatarsRunning(true);
             event.getMessage().editMessage("Avatars thread started.").queue();
