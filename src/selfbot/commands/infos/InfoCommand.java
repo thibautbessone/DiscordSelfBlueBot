@@ -26,7 +26,7 @@ public class InfoCommand implements Command {
         builder.setAuthor("Information about " + event.getAuthor().getName() + "#" + event.getAuthor().getDiscriminator(), null, "http://i.imgur.com/880AyL6.png");
         builder.setColor(Color.decode(SelfBot.getConfig().getColor()));
         builder.setThumbnail(event.getAuthor().getAvatarUrl());
-        builder.setTitle(SelfBot.getConfig().getTitle());
+        builder.setTitle(SelfBot.getConfig().getTitle(), null);
         builder.setDescription(SelfBot.getConfig().getDescription());
         builder.addField(SelfBot.getConfig().getMainTextTitle(), SelfBot.getConfig().getMainText(), false);
         builder.setFooter(SelfBot.getConfig().getFooter(), null);

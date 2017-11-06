@@ -43,7 +43,7 @@ public class AvatarsThread extends Thread {
                     }
                 }
             };
-            timer.schedule(changeAvatarTask, 100, 1000*60*6);
+            timer.schedule(changeAvatarTask, 100, 1000*60*30);
         } catch (NullPointerException e) {
             e.printStackTrace();
             this.interrupt();

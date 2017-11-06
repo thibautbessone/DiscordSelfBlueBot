@@ -8,12 +8,13 @@ import selfbot.utils.Command;
 import java.io.IOException;
 
 
-/**
+/*
  * @file AsciiCommand.java
  * @author Blue
  * @version 0.1
  * @brief Write the given text as ASCII art
- */
+*/
+
 public class AsciiCommand implements Command {
     @Override
     public boolean called(String[] args, MessageReceivedEvent event) {
