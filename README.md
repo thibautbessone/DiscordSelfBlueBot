@@ -1,3 +1,5 @@
+# NO LONGER DEVELOPED - DISCORD SELFBOTS ARE FORBIDDEN AND WILL LEAD TO A BAN according to the Discord CM on Twitter
+
 # Blue's SelfBot
 
 This is a Discord Selfbot written in Java using the [JDA library](https://github.com/DV8FromTheWorld/JDA).
